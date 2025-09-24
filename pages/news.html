@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Семестровая работа</title>
+    <link rel="stylesheet" href="../style/styles.css">
 </head>
+
 <body>
-    <div id="header">Хэдер</div>
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+    <div class="wrapper">
+        <header class="my_header">
+            <div class="header">Хэдер</div>
+            <div class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li>
+                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="content">
+            <h1 class="news__title title">Новости</h1>
+            <article class="news">
+                <h2 class="news__title">Новость 1</h2>
+                <h3 class="news__author">Александр Сергеевич Пушкин 20.10.2025</h3>
+                <p class="news__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione similique perspiciatis, obcaecati
+                    sequi facilis reprehenderit.</p>
+            </article>
+            <article class="news">
+                <h2 class="news__title">Новость 2</h2>
+                <h3 clas="news__author">Александр Сергеевич Пушкин 21.10.2025</h3>
+                <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, assumenda!</p>
+            </article>
+            <article class="news">
+                <h2 class="news__title">Новость 3</h2>
+                <h3 class="news__author">Александр Сергеевич Пушкин 22.10.2025</h3>
+                <p class="news__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, ipsam voluptatum ipsum totam
+                    veritatis ducimus!</p>
+            </article>
+        </div>
+        <div class="footer">Футер</div>
     </div>
-    <div id="content">
-        <article>
-            <h2>Новость 1</h2>
-            <h3>Александр Сергеевич Пушкин 20.10.2025</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione similique perspiciatis, obcaecati sequi facilis reprehenderit.</p>
-        </article>
-        <article>
-            <h2>Новость 2</h2>
-            <h3>Александр Сергеевич Пушкин 21.10.2025</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, assumenda!</p>
-        </article>
-        <article>
-            <h2>Новость 3</h2>
-            <h3>Александр Сергеевич Пушкин 22.10.2025</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, ipsam voluptatum ipsum totam veritatis ducimus!</p>
-        </article>
-    </div>
-    <div id="footer">Футер</div>
+
 </body>
+
 </html>
