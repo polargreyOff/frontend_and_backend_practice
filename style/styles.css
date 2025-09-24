@@ -177,10 +177,6 @@ body {
     flex-direction: column;
 }
 
-header.my_header {
-    
-}
-
 .container {
     flex: 1 1 auto;
 }
